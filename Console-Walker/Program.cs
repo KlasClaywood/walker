@@ -12,7 +12,7 @@ namespace Console_Walker
         {
             ConsoleKeyInfo svar = new ConsoleKeyInfo();
             svar = Console.ReadKey();
-            while (svar.Key != ConsoleKey.NumPad1)
+            while (svar.Key != ConsoleKey.NumPad5)
             {
                 Console.WriteLine(svar.Key);
                 svar = Console.ReadKey();
