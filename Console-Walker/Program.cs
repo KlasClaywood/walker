@@ -8,6 +8,7 @@ namespace Console_Walker
 {
     class Program
     {
+        //KLAS VARS ÄR TILE?!
         static string map = "bb^^...............^^^bb|" +
                             "b^^..................^^b|" +
                             "^^....&&&&&&&&&&&&&...^^|" +
