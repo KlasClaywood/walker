@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Console_Walker
 {
-    class person
+    class Player:Printable
     {
+        public Player(int x, int y, Tile t): base(x, y, t)
+        {
+
+        }
     }
 }
