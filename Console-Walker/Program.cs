@@ -10,6 +10,7 @@ namespace Console_Walker
     {
         static void Main(string[] args)
         {
+            // Min kommentar!
             ConsoleKeyInfo svar = new ConsoleKeyInfo();
             svar = Console.ReadKey();
             while (svar.Key != ConsoleKey.NumPad5)
