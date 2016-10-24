@@ -10,6 +10,13 @@ namespace Console_Walker
     {
         static void Main(string[] args)
         {
+            ConsoleKeyInfo svar = new ConsoleKeyInfo();
+            svar = Console.ReadKey();
+            while (svar.Key != ConsoleKey.NumPad0)
+            {
+                Console.WriteLine(svar.Key);
+                svar = Console.ReadKey();
+            }
         }
     }
 }
