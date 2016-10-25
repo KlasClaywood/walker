@@ -22,11 +22,7 @@ namespace Console_Walker
             Tile grass = new Tile('.', ConsoleColor.Green);
             List<Position> karta = new List<Position>();
             List<Printable> allasaker = new List<Printable>();
-            var query = karta.Where(m => m.Tile == skog);
-            foreach (var pos in query)
-            {
-                
-            }
+            
             Player player = new Player(6, 1, new Tile('@', ConsoleColor.Gray));
             allasaker.Add(player);
             int x = 0;
